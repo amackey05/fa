@@ -1,0 +1,75 @@
+body, html{height:100%;
+
+/*background:url(../images/background.jpg) center top no-repeat ;*/ line-height:16px;
+background: #005daa;
+/*background-image: url(../images/background.jpg);*/
+background-image: url(../images/background.jpg);
+
+background-repeat:no-repeat;
+
+background-position:top center;
+
+background-attachment:fixed;
+
+/*
+-o-background-size: 100% auto, auto;
+
+-moz-background-size: 100% auto, auto;
+
+-webkit-background-size: 100% auto, auto;
+
+background-size: 100% auto, auto;*/
+
+-o-background-size: auto, 100% auto;
+
+-moz-background-size: auto, 100% auto;
+
+-webkit-background-size: auto, 100% auto;
+
+background-size: auto, 100% auto;
+
+background-size:cover;
+
+ font-size:12px; padding:0; margin:0; color:#444444; font-family:"Lucida Sans", "Lucida Grande", sans-serif; min-height:100%;}
+
+.ipad body, html.ipad {
+	background-image:none;
+	background-image: -webkit-linear-gradient(bottom, rgb(99,148,198) 1%, rgb(99,148,198) 23%, rgb(24,41,115) 96%);
+	background-image:none;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.01, rgb(99,148,198)),
+		color-stop(0.23, rgb(99,148,198)),
+		color-stop(0.96, rgb(24,41,115))
+	);
+
+}
+
+.android body, html.android {
+	background-image:none;
+	background-image: -webkit-linear-gradient(bottom, rgb(99,148,198) 1%, rgb(99,148,198) 23%, rgb(24,41,115) 96%);
+	background-image:none;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.01, rgb(99,148,198)),
+		color-stop(0.23, rgb(99,148,198)),
+		color-stop(0.96, rgb(24,41,115))
+	);
+
+}
+
+
+.emvideo-modal-iframe {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+	background:none;
+	background-color:white;
+}

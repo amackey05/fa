@@ -1,0 +1,22 @@
+section#banner {
+	display: none;
+}
+section#content {
+	top: 0;
+}
+body {
+	background: #ffffff;
+	background-image: none;
+}
+section#content .left {
+	display: none;
+}
+section.bottomContainer {
+	display: none;
+}
+.going-uk-form #signup-box {
+	display: none;
+}
+section#content .right .fbTwitButtons {
+	display: none;
+}

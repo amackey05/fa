@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (orientation:landscape) {
+	section#strip-navigation ul li p, footer#strip-navigation ul li p {
+	opacity:1;
+	z-index : -10
+	}
+	#student-navigation a {
+	opacity:1;
+	}
+	footer#strip-navigation {
+	position: fixed;
+	bottom: 0;
+	}
+}
